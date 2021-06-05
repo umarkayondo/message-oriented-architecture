@@ -8,7 +8,7 @@ def get_queue_configuration():
 
     :return: dict: Containing the queue name and channel to connect to.
     """
-    rabbitmq_url = "amqps://efvveyrg:iuAsGny7dQ1oLsLjf-TUSUdLkPrbVj71@hawk.rmq.cloudamqp.com/efvveyrg"
+    rabbitmq_url = " CloudAMPQ url here"
     queue_name = "your_queue_name"
     params = pika.URLParameters(rabbitmq_url)
 
